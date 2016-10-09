@@ -343,8 +343,6 @@ function farm_log_activity_views_default_views() {
   );
   $handler->display->display_options['use_batch'] = 'batch';
   $handler->display->display_options['segment_size'] = '100';
-    return $export;
-  }
 
   $translatables['farm_log_activity'] = array(
     t('Master'),
